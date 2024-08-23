@@ -12,17 +12,16 @@
 }
 
 .topnav {
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: 15px;
 }
 
 .list a {
     text-decoration: none;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 15px;
 }
 
 .list {
@@ -80,6 +79,21 @@
 }
 
 @media only screen and (max-width:300px) {
+    .topnav {
+        margin-left: 2px;
+         font-size: 6px;
+    }
+    .list li {
+        padding-left: 13px;
+    }
+    .topnav img{
+        width: 50px;
+        height: 10px;
+    }
+    .topnav {
+        padding: 10px;
+    }
+
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
@@ -97,10 +111,6 @@
         font-size: 15px;
     }
 
-    .topnav {
-        padding: 20px;
-    }
-
     .welcome {
         padding-top: 15px;
     }
@@ -116,11 +126,26 @@
 
     .animate {
         font-size: 8px;
-        padding-top: 45px;
+        padding-top: 70px;
     }
 }
 
 @media only screen and (min-width:301px) {
+    .topnav {
+        margin-left: 2px;
+         font-size: 9px;
+    }
+    .list li {
+        padding-left: 13px;
+    }
+    .topnav img{
+        width: 60px;
+        height: 15px;
+    }
+    .topnav {
+        padding: 10px;
+    }
+    
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
@@ -138,9 +163,7 @@
         font-size: 15px;
     }
 
-    .topnav {
-        padding: 20px;
-    }
+    
 
     .welcome {
         padding-top: 15px;
@@ -157,11 +180,58 @@
 
     .animate {
         font-size: 8px;
-        padding-top: 45px;
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (min-width:320px) {
+    
+    .topnav {
+        margin-left: 2px;
+         font-size: 9px;
+    }
+    .list li {
+        padding-left: 13px;
+    }
+    .topnav img{
+        width: 60px;
+        height: 15px;
+    }
+    .topnav {
+        padding: 8px;
+    }.main {
+        background-image: url(../img/MAIN\ IMAGE.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 320px;
+        background-position: center;
+    }
+
+    .welcome h1 {
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .animate{
+        padding-top: 65px;
     }
 }
 
 @media only screen and (min-width:375px) {
+    .topnav {
+        margin-left: 2px;
+         font-size: 9px;
+    }
+    .list li {
+        padding-left: 13px;
+    }
+    .topnav img{
+        width: 60px;
+        height: 15px;
+    }
+    .topnav {
+        padding: 10px;
+    }
+    
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
@@ -179,10 +249,7 @@
         font-size: 15px;
     }
 
-    .topnav {
-        padding: 20px;
-    }
-
+    
     .welcome {
         padding-top: 15px;
     }
@@ -198,11 +265,25 @@
 
     .animate {
         font-size: 8px;
-        padding-top: 55px;
+        padding-top: 75px;
     }
 }
 
 @media only screen and (min-width:400px) {
+    .topnav {
+        margin-left: 2px;
+         font-size: 9px;
+    }
+    .list li {
+        padding-left: 13px;
+    }
+    .topnav img{
+        width: 60px;
+        height: 15px;
+    }
+    .topnav {
+        padding: 10px;
+    }
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
@@ -220,10 +301,6 @@
         font-size: 18px;
     }
 
-    .topnav {
-        padding: 20px;
-    }
-
     .welcome {
         padding-top: 15px;
     }
@@ -239,18 +316,27 @@
 
     .animate {
         font-size: 10px;
-        padding-top: 45px;
+        padding-top: 60px;
     }
 }
 
 @media only screen and (min-width:500px) {
-    .main {
-        background-image: url(../img/MAIN\ IMAGE.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 350px;
-        background-position: center;
+    
+    .topnav {
+        margin-left: 2px;
+         font-size: 9px;
     }
+    .list li {
+        padding-left: 13px;
+    }
+    .topnav img{
+        width: 70px;
+        height: 17px;
+    }
+    .topnav {
+        padding: 10px;
+    }
+    
 
     .welcome h1 {
         font-size: 40px;
@@ -259,10 +345,6 @@
 
     .welcome h3 {
         font-size: 20px;
-    }
-
-    .topnav {
-        padding: 20px;
     }
 
     .welcome {
@@ -280,7 +362,7 @@
 
     .animate {
         font-size: 10px;
-        padding-top: 38px;
+        padding-top: 28px;
     }
 }
 
@@ -330,6 +412,20 @@
 }
 
 @media only screen and (min-width:900px) {
+    .topnav {
+        margin-left: 2px;
+         font-size: 9px;
+    }
+    .list li {
+        padding-left: 25px;
+    }
+    .topnav img{
+        width: 120px;
+        height: 30px;
+    }
+    .topnav {
+        padding: 10px;
+    }
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
@@ -376,6 +472,20 @@
 }
 
 @media only screen and (min-width:1500px) {
+    .topnav {
+        margin-left: 2px;
+         font-size: 9px;
+    }
+    .list li {
+        padding-left: 30px;
+    }
+    .topnav img{
+        width: 130px;
+        height: 35px;
+    }
+    .topnav {
+        padding: 10px;
+    }
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
@@ -433,11 +543,507 @@
     height: 425px;
     border: 2px solid rgb(187, 187, 187);
     border-radius: 9px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
     padding: 30px;
+    font-weight: lighter;
 }
 
+@media only screen and (max-width:300px) {
+    .welcome-page {
+        padding: 20px;
+        height: 470px;
+    }
+
+    .welcome1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+        padding: 15px;
+
+
+    }
+
+    .welcome-pic {
+        background-image: url(../img/img\ 1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 180px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:301px) {
+    .welcome-page {
+        padding: 20px;
+        height: 590px;
+    }
+
+    .welcome1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        padding: 15px;
+        text-justify: auto;
+        height: 550px;
+    }
+
+    .welcome-pic {
+        background-image: url(../img/img\ 1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:400px) {
+
+    .welcome-pic {
+        background-image: url(../img/img\ 1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .welcome-page {
+        padding: 20px;
+        height: 590px;
+    }
+
+    .welcome-pic {
+        background-image: url(../img/img\ 1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 300px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    .welcome-page {
+        padding: 20px;
+        height: 320px;
+    }
+
+    .welcome1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        height: 280px;
+        gap: 20px;
+
+    }
+
+    .welcome-pic {
+        background-image: url(../img/img\ 1.jpg);
+        background-size: cover;
+        width: 100%;
+        height: 250px;
+        margin-top: 1px;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .welcome-page {
+        padding: 20px;
+        height: 320px;
+    }
+
+    .welcome1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 14px;
+        height: 280px;
+        gap: 20px;
+
+    }
+
+
+}
+
+@media only screen and (min-width:1200px) {
+    .welcome-page {
+        padding: 30px 70px 30px 70px;
+        height: 410px;
+    }
+
+    .welcome1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 17px;
+        height: 350px;
+        gap: 60px;
+
+    }
+
+    .welcome-pic {
+        background-image: url(../img/img\ 1.jpg);
+        background-size: cover;
+        width: 400px;
+        height: 300px;
+        margin-top: 1px;
+    }
+}
+
+
+/* founder section  */
+
+
+.founder {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(10, 0, 104, 0.404);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.found {
+    width: 90%;
+    height: 300px;
+    border: 1px solid rgb(172, 172, 172);
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pst-img {
+    /* border: 1px solid black; */
+    width: 230px;
+    height: 230px;
+    border-radius: 130px;
+    background-image: url(../img/pst\ sam.JPG);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sam-text {
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+@media only screen and (max-width:300px) {
+    .founder {
+        width: 100%;
+        height: 600px;
+        background-color: rgba(10, 0, 104, 0.13);
+    }
+
+    .found {
+        width: 90%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .pst-img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .sam-text {
+        font-size: 12px;
+        color: black;
+    }
+}
+
+@media only screen and (min-width:301px) {
+    .founder {
+        width: 100%;
+        height: 600px;
+        background-color: rgba(10, 0, 104, 0.13);
+    }
+
+    .found {
+        width: 90%;
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .pst-img {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    .sam-text {
+        font-size: 12px;
+        color: black;
+    }
+}
+
+@media only screen and (min-width:342px) {
+    .founder {
+        width: 100%;
+        height: 525px;
+    }
+
+    .found {
+        width: 90%;
+        height: 500px;
+    }
+
+}
+
+@media only screen and (min-width:375px) {
+    .sam-text {
+        font-size: 13px;
+    }
+
+    .founder {
+        width: 100%;
+        height: 550px;
+    }
+
+    .found {
+        width: 90%;
+        height: 525px;
+    }
+}
+
+@media only screen and (min-width:400px) {
+
+    .founder {
+        width: 100%;
+        height: 550px;
+    }
+
+    .found {
+        width: 90%;
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width:500px) {
+    .sam-text {
+        font-size: 14px;
+    }
+
+    .founder {
+        width: 100%;
+        height: 600px;
+    }
+
+    .found {
+        width: 90%;
+        height: 575px;
+    }
+
+    .pst-img {
+
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media only screen and (min-width:700px) {
+    .sam-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .sam-text {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+
+    .pst-img {
+        width: 230px;
+        height: 230px;
+
+    }
+
+    .sam-text {
+        font-size: 16px;
+        color: black;
+    }
+
+    .found {
+        width: 90%;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+    }
+
+    .founder {
+        height: 400px;
+    }
+
+}
+
+@media only screen and (min-width:1500px) {
+
+    .sam-text {
+        font-size: 18px;
+        color: black;
+    }
+
+    .found {
+        width: 90%;
+        height: 350px;
+        display: flex;
+        flex-direction: row;
+        padding: 25px;
+    }
+
+    .founder {
+        height: 400px;
+    }
+}
+
+/* contact section */
+.contact {
+    width: 100%;
+    height: 475px;
+    background-image: url(../img/white\ background.jpg);
+    background-size: cover;
+}
+
+.locate {
+    padding: 40px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.follow p {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 80px;
+    height: 30px;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.form {
+    background-color: rgba(0, 0, 0, 0.452);
+    width: 550px;
+    height: 250px;
+
+}
+
+.input {
+    padding: 20px;
+}
+
+.name {
+    padding-top: 10px;
+}
+
+.name p {
+    display: inline;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #999999;
+    padding: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+    width: 300px;
+    height: 400px;
+    font-family: "Montserrat", sans-serif;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+}
+
+input[type=submit]:hover {
+    background-color: #919191;
+}
+
+@media only screen and (max-width:300px) {
+    .contact {
+        background-position: center;
+    }
+
+    .locate {
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .ll {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (min-width:301px) {}
+
+@media only screen and (min-width:375px) {}
+
+@media only screen and (min-width:400px) {}
+
+@media only screen and (min-width:500px) {}
+
+@media only screen and (min-width:700px) {}
+
+@media only screen and (min-width:900px) {}
+
+@media only screen and (min-width:1500px) {}
+
+
+
+
+
+
+/* psalmson media section */
+.ps {
+    width: 100%;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    justify-content: center;
+    align-items: center;
+}
