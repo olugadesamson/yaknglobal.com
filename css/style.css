@@ -11,6 +11,13 @@
     height: 600px;
 }
 
+.navbar-toggler-icon {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
 .topnav {
     display: flex;
     justify-content: space-between;
@@ -49,6 +56,7 @@
     font-size: 70px;
     color: aqua;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     line-height: 70px;
 }
 
@@ -74,22 +82,25 @@
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 12px;
-    padding-top: 90px;
+    padding-top: 70px;
     margin: 0 20px 0 20px;
 }
 
 @media only screen and (max-width:300px) {
     .topnav {
         margin-left: 2px;
-         font-size: 6px;
+        font-size: 6px;
     }
+
     .list li {
         padding-left: 13px;
     }
-    .topnav img{
+
+    .topnav img {
         width: 50px;
         height: 10px;
     }
+
     .topnav {
         padding: 10px;
     }
@@ -98,7 +109,7 @@
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
         width: 100%;
-        height: 300px;
+        height: 230px;
         background-position: center;
     }
 
@@ -112,11 +123,11 @@
     }
 
     .welcome {
-        padding-top: 15px;
+        padding-top: 25px;
     }
 
     .read-more {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .read-more a {
@@ -126,51 +137,54 @@
 
     .animate {
         font-size: 8px;
-        padding-top: 70px;
+        padding-top: 30px;
     }
 }
 
 @media only screen and (min-width:301px) {
     .topnav {
         margin-left: 2px;
-         font-size: 9px;
+        font-size: 9px;
     }
+
     .list li {
         padding-left: 13px;
     }
-    .topnav img{
+
+    .topnav img {
         width: 60px;
         height: 15px;
     }
+
     .topnav {
         padding: 10px;
     }
-    
+
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
         width: 100%;
-        height: 320px;
+        height: 260px;
         background-position: center;
     }
 
     .welcome h1 {
-        font-size: 30px;
-        line-height: 28px;
+        font-size: 35px;
+        line-height: 32px;
     }
 
     .welcome h3 {
         font-size: 15px;
     }
 
-    
+
 
     .welcome {
-        padding-top: 15px;
+        padding-top: 20px;
     }
 
     .read-more {
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
     .read-more a {
@@ -180,30 +194,35 @@
 
     .animate {
         font-size: 8px;
-        padding-top: 60px;
+        padding-top: 30px;
     }
 }
 
 @media only screen and (min-width:320px) {
-    
+
     .topnav {
         margin-left: 2px;
-         font-size: 9px;
+        font-size: 9px;
     }
+
     .list li {
         padding-left: 13px;
     }
-    .topnav img{
+
+    .topnav img {
         width: 60px;
         height: 15px;
     }
+
     .topnav {
         padding: 8px;
-    }.main {
+    }
+
+    .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
         width: 100%;
-        height: 320px;
+        height: 270px;
         background-position: center;
     }
 
@@ -211,32 +230,36 @@
         font-size: 35px;
         line-height: 30px;
     }
-    .animate{
-        padding-top: 65px;
+
+    .animate {
+        padding-top: 40px;
     }
 }
 
-@media only screen and (min-width:375px) {
+@media only screen and (min-width:368px) {
     .topnav {
         margin-left: 2px;
-         font-size: 9px;
+        font-size: 9px;
     }
+
     .list li {
         padding-left: 13px;
     }
-    .topnav img{
+
+    .topnav img {
         width: 60px;
         height: 15px;
     }
+
     .topnav {
         padding: 10px;
     }
-    
+
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
         width: 100%;
-        height: 320px;
+        height: 250px;
         background-position: center;
     }
 
@@ -246,16 +269,17 @@
     }
 
     .welcome h3 {
+        padding-top: 40px;
         font-size: 15px;
     }
 
-    
+
     .welcome {
         padding-top: 15px;
     }
 
     .read-more {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .read-more a {
@@ -265,30 +289,34 @@
 
     .animate {
         font-size: 8px;
-        padding-top: 75px;
+        padding-top: 35px;
     }
 }
 
 @media only screen and (min-width:400px) {
     .topnav {
         margin-left: 2px;
-         font-size: 9px;
+        font-size: 9px;
     }
+
     .list li {
         padding-left: 13px;
     }
-    .topnav img{
+
+    .topnav img {
         width: 60px;
         height: 15px;
     }
+
     .topnav {
         padding: 10px;
     }
+
     .main {
         background-image: url(../img/MAIN\ IMAGE.jpg);
         background-size: cover;
         width: 100%;
-        height: 320px;
+        height: 300px;
         background-position: center;
     }
 
@@ -321,215 +349,146 @@
 }
 
 @media only screen and (min-width:500px) {
-    
-    .topnav {
-        margin-left: 2px;
-         font-size: 9px;
+    .main {
+        height: 300px;
     }
-    .list li {
-        padding-left: 13px;
-    }
-    .topnav img{
-        width: 70px;
-        height: 17px;
-    }
-    .topnav {
-        padding: 10px;
-    }
-    
 
     .welcome h1 {
         font-size: 40px;
-        line-height: 34px;
+        line-height: 40px;
     }
 
     .welcome h3 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .welcome {
-        padding-top: 30px;
+        padding-top: 15px;
     }
 
     .read-more {
-        padding-top: 40px;
+        padding-top: 35px;
     }
 
     .read-more a {
         padding: 10px;
-        font-size: 10px;
+        font-size: 11px;
     }
 
     .animate {
         font-size: 10px;
-        padding-top: 28px;
+        padding-top: 40px;
     }
 }
 
 @media only screen and (min-width:700px) {
     .main {
-        background-image: url(../img/MAIN\ IMAGE.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 400px;
-        background-position: center;
+        height: 350px;
     }
 
     .welcome h1 {
-        font-size: 55px;
-        line-height: 50px;
+        font-size: 50px;
+        line-height: 45px;
     }
 
     .welcome h3 {
-        font-size: 25px;
-    }
-
-    .topnav {
-        padding: 12px;
+        font-size: 20px;
     }
 
     .welcome {
-        padding-top: 20px;
+        padding-top: 35px;
     }
 
     .read-more {
-        padding-top: 50px;
+        padding-top: 35px;
     }
 
     .read-more a {
         padding: 10px;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .animate {
-        font-size: 12px;
-        padding-top: 70px;
-    }
-
-    .list a {
         font-size: 10px;
+        padding-top: 50px;
     }
 }
 
 @media only screen and (min-width:900px) {
-    .topnav {
-        margin-left: 2px;
-         font-size: 9px;
-    }
-    .list li {
-        padding-left: 25px;
-    }
-    .topnav img{
-        width: 120px;
-        height: 30px;
-    }
-    .topnav {
-        padding: 10px;
-    }
     .main {
-        background-image: url(../img/MAIN\ IMAGE.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 550px;
-        background-position: center;
+        height: 400px;
     }
 
     .welcome h1 {
-        font-size: 80px;
-        line-height: 70px;
+        font-size: 62px;
+        line-height: 65px;
     }
 
     .welcome h3 {
-        font-size: 30px;
-    }
-
-    .topnav {
-        padding: 12px;
+        font-size: 35px;
     }
 
     .welcome {
-        padding-top: 50px;
+        padding-top: 35px;
     }
 
     .read-more {
-        padding-top: 80px;
+        padding-top: 35px;
     }
 
     .read-more a {
         padding: 10px;
-        font-size: 18px;
+        font-size: 15px;
+    }
+
+    .animate {
+        font-size: 10px;
+        padding-top: 45px;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    .main {
+        height: 500px;
+    }
+
+    .welcome h1 {
+        font-size: 70px;
+        line-height: 65px;
+    }
+
+    .welcome h3 {
+        font-size: 35px;
+    }
+
+    .welcome {
+        padding-top: 65px;
+    }
+
+    .read-more {
+        padding-top: 45px;
+    }
+
+    .read-more a {
+        padding: 15px;
+        font-size: 20px;
     }
 
     .animate {
         font-size: 15px;
-        padding-top: 70px;
-    }
-
-    .list a {
-        font-size: 13px;
-    }
-
-}
-
-@media only screen and (min-width:1500px) {
-    .topnav {
-        margin-left: 2px;
-         font-size: 9px;
-    }
-    .list li {
-        padding-left: 30px;
-    }
-    .topnav img{
-        width: 130px;
-        height: 35px;
-    }
-    .topnav {
-        padding: 10px;
-    }
-    .main {
-        background-image: url(../img/MAIN\ IMAGE.jpg);
-        background-size: cover;
-        width: 100%;
-        height: 650px;
-        background-position: center;
-    }
-
-    .welcome h1 {
-        font-size: 90px;
-        line-height: 80px;
-    }
-
-    .welcome h3 {
-        font-size: 45px;
-    }
-
-    .topnav {
-        padding: 15px;
-    }
-
-    .welcome {
-        padding-top: 40px;
-    }
-
-    .read-more {
         padding-top: 85px;
     }
-
-    .read-more a {
-        padding: 15px;
-        font-size: 20px;
-    }
-
-    .animate {
-        font-size: 18px;
-        padding-top: 130px;
-    }
-
-    .list a {
-        font-size: 20px;
-    }
-
 }
+
+
+
+
+
+
+
+
+/* Welcome Page (Hello Guys) */
+
 
 .welcome-page {
     width: 100%;
@@ -549,6 +508,7 @@
     display: flex;
     padding: 30px;
     font-weight: lighter;
+    text-align: justify;
 }
 
 @media only screen and (max-width:300px) {
@@ -584,7 +544,7 @@
     .welcome1 {
         display: flex;
         flex-direction: column;
-        font-size: 13px;
+        font-size: 11px;
         padding: 15px;
         text-justify: auto;
         height: 550px;
@@ -627,14 +587,14 @@
 
 @media only screen and (min-width:700px) {
     .welcome-page {
-        padding: 20px;
+        padding: 30px;
         height: 320px;
     }
 
     .welcome1 {
         display: flex;
         flex-direction: row;
-        font-size: 12px;
+        font-size: 11px;
         height: 280px;
         gap: 20px;
 
@@ -651,15 +611,15 @@
 
 @media only screen and (min-width:900px) {
     .welcome-page {
-        padding: 20px;
+        padding: 30px;
         height: 320px;
     }
 
     .welcome1 {
         display: flex;
         flex-direction: row;
-        font-size: 14px;
-        height: 280px;
+        font-size: 13px;
+        height: 290px;
         gap: 20px;
 
     }
@@ -676,9 +636,9 @@
     .welcome1 {
         display: flex;
         flex-direction: row;
-        font-size: 17px;
+        font-size: 16px;
         height: 350px;
-        gap: 60px;
+        gap: 30px;
 
     }
 
@@ -730,6 +690,7 @@
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+    text-align: justify;
 }
 
 @media only screen and (max-width:300px) {
@@ -803,7 +764,7 @@
 
 @media only screen and (min-width:375px) {
     .sam-text {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .founder {
@@ -832,7 +793,7 @@
 
 @media only screen and (min-width:500px) {
     .sam-text {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .founder {
@@ -854,13 +815,13 @@
 
 @media only screen and (min-width:700px) {
     .sam-text {
-        font-size: 16px;
+        font-size: 15px;
     }
 }
 
 @media only screen and (min-width:900px) {
     .sam-text {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -911,139 +872,252 @@
     }
 }
 
-/* contact section */
-.contact {
-    width: 100%;
-    height: 475px;
-    background-image: url(../img/white\ background.jpg);
-    background-size: cover;
-}
 
-.locate {
+
+
+
+
+
+/* footer section */
+
+.footer {
+    width: 100%;
     padding: 40px;
-    color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(192, 192, 192);
+    height: 425px;
 }
 
-.follow p {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    width: 80px;
-    height: 30px;
+.contact {
     display: flex;
-    font-size: 15px;
-    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
     justify-content: center;
+    font-size: 14px;
+    line-height: 40px;
 }
 
-.icon {
-    padding-top: 10px;
+.contact p {
+    color: #010053;
 }
 
-.form {
-    background-color: rgba(0, 0, 0, 0.452);
-    width: 550px;
-    height: 250px;
-
-}
-
-.input {
-    padding: 20px;
-}
-
-.name {
-    padding-top: 10px;
-}
-
-.name p {
-    display: inline;
-}
-
-.form {
-    border-radius: 5px;
-    background-color: #999999;
-    padding: 20px;
-    margin-left: 70px;
+.contact a {
+    text-decoration: none;
+    color: rgb(173, 0, 0);
     margin-right: 10px;
+}
+
+.Service1 {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input input {
     width: 300px;
-    height: 400px;
-    font-family: "Montserrat", sans-serif;
-}
-
-input[type=text],
-select {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-}
-
-input[type=submit] {
-    width: 100%;
-    background-color: #ff0000;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
+    padding: 8px;
+    margin-top: 10px;
     border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    outline-color: blue;
 }
 
-input[type=submit]:hover {
-    background-color: #919191;
+.input button {
+    margin-top: 10px;
+    background-color: rgb(24, 0, 158);
+    color: white;
+    font-size: large;
+    border: none;
+}
+
+.line {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    height: 1px;
+    background-color: gray;
+    margin-top: 40px;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 13px;
 }
 
 @media only screen and (max-width:300px) {
+    .footer {
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 5px;
+        height: 790px;
+    }
+
     .contact {
-        background-position: center;
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
     }
 
-    .locate {
-        /* display: flex;
-        flex-direction: column; */
+    .contact h5 {
+        padding-top: 30px;
     }
 
-    .ll {
-        display: flex;
-        flex-direction: row;
+    .input input {
+        width: 260px;
+    }
+
+    .input button {
+        width: 260px;
+        height: 40px;
+    }
+
+    .line {
+        width: 260px;
+        margin-top: 30px;
+    }
+
+    .copyright {
+        margin-top: 10px;
+        font-size: 9px;
+    }
+
+}
+
+@media only screen and (min-width:301px) {
+    .footer {
+        width: 100%;
+        padding-left: 20px;
+        padding-top: 5px;
+        height: 790px;
+    }
+
+    .contact {
+        display: block;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .contact h5 {
+        padding-top: 30px;
+    }
+
+    .input input {
+        width: 100%;
+    }
+
+    .input button {
+        width: 100%;
+        height: 40px;
+    }
+
+    .line {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .copyright {
+        margin-top: 10px;
+        font-size: 9px;
     }
 }
 
-@media only screen and (min-width:301px) {}
-
-@media only screen and (min-width:375px) {}
-
-@media only screen and (min-width:400px) {}
-
-@media only screen and (min-width:500px) {}
-
 @media only screen and (min-width:700px) {}
 
-@media only screen and (min-width:900px) {}
+@media only screen and (min-width:900px) {
+    .footer {
+        width: 100%;
+        padding: 20px 80px;
+        height: 360px;
+    }
 
-@media only screen and (min-width:1500px) {}
+    .contact {
+        display: flex;
+        gap: 60px;
+        
+    }
+    .input input {
+        width: 100%;
+    }
 
+    .input button {
+        width: 300px;
+        height: 40px;
+    }
 
+    .line {
+        width: 100%;
+        margin-top: 30px;
+    }
 
+    .copyright {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
 
+@media only screen and (min-width:1200px) {
+    .footer {
+        width: 100%;
+        padding: 20px 80px;
+        height: 360px;
+    }
 
+    .contact {
+        display: flex;
+        gap: 100px;
+        
+    }
+    .input input {
+        width: 100%;
+    }
 
-/* psalmson media section */
-.ps {
-    width: 100%;
-    height: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: black;
-    color: white;
-    display: flex;
-    font-size: 15px;
-    letter-spacing: 2px;
-    font-weight: lighter;
-    justify-content: center;
-    align-items: center;
+    .input button {
+        width: 300px;
+        height: 40px;
+    }
+
+    .line {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .copyright {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:1300px) {
+    .footer {
+        width: 100%;
+        padding: 20px 80px;
+        height: 400px;
+    }
+
+    .contact {
+        display: flex;
+        gap: 100px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .input input {
+        width: 100%;
+    }
+
+    .input button {
+        width: 300px;
+        height: 40px;
+    }
+
+    .line {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .copyright {
+        margin-top: 10px;
+        font-size: 13px;
+    }
 }

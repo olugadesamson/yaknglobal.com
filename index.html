@@ -4,28 +4,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <title>yaknglobal.com</title>
 </head>
 
 <body>
-    <section class="main">
-        <div class="topnav">
-            <div><img src="img/yaknlogo white.png" width="100"></div>
-
-            <div>
-                
-                    <ul class="topnav list">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Service</a></li>
-                        <li><a href="">Donate</a></li>
-                        <li><a href="">Gallery</a></li>
-                    </ul>
-                
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="index.html"><img src="img/yaknlogo white.png" width="100"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light" href="service.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Service
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Podcast</a></li>
+                            <li><a class="dropdown-item" href="#">Teachings</a></li>
+                            <li><a class="dropdown-item" href="#">My Books</a></li>
+                            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="index.html"><img src="img/yakn logo.png"
+                                        width="100"></a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-disabled="true" href="donate.html">Donate</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-disabled="true" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-disabled="true" href="gallery.html">Gallery</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="https://www.facebook.com/fafiolu.samuel"><img src="img/fb.png" width="20"></a>
+                    <a href="https://youtube.com/@samfafioluofficial?si=S8PP0mXsg4CZrCpM"><img src="img/yt.png" width="20"></a>
+                    <a href="https://vm.tiktok.com/ZMh8GTM2t/"><img src="img/tk.png"  width="20"></a>
+                    <a href="https://www.instagram.com/samfafiolu.ng?igsh=YzljYTk1ODg3Zg=="><img src="img/insta.png"  width="20"></a>
+                </div>
             </div>
-
-
         </div>
+    </nav>
+    <section class="main">
         <div class="welcome">
             <h3 class="welcome">WELCOME TO</h3>
             <h1 class="yakn">YOUNG ADULTS<br>KINGDOM NETWORK</h1>
@@ -63,7 +99,7 @@
                 <div class="pst-img"></div>
             </div>
             <div class="sam-text">
-                <p><b>FOUNDER</b> <br>
+                <p style="font-weight: lighter;"><b>FOUNDER</b> <br>
                     Sam Fafiolu is a thought leader and minister of the gospel with a special focus on young people. He
                     is deeply passionate about guiding the youth, understanding that their actions, or lack thereof, can
                     significantly influence their God-given destinies. In 2021, Sam was inspired to establish what has
@@ -86,55 +122,57 @@
             </div>
         </div>
     </div>
-    <footer class="contact">
-        <div class="locate">
-            <div class="ll">
-                <div>
-                    <div><img src="img/location.png" width="100">
-                        <p>Liverpool, UK.</p>
-                    </div>
-                </div>
-                <br>
-
-                <div class="follow">
-                    <p>Follow Us</p>
-                    <div class="icon"><a href=""><img src="img/tiktok.png" width="25"></a>
-                        <a href=""><img src="img/youtube.png" width="25"></a>
-                        <a href=""><img src="img/facebook.png" width="25"></a>
-                        <a href=""><img src="img/twitter.png" width="25"></a>
-                    </div>
+    <footer class="footer">
+        <div class="contact">
+            <div>
+                <h5>Contact Us</h5>
+                <p class="contact1">If you are in the middle of something and <br> you don’t want to miss that important call <br> that
+                    could be the
+                    start of an exciting new <br>business.</p>
+                <a href="https://www.facebook.com/fafiolu.samuel"><img src="img/facebook.png" width="20"></a>
+                <a href="https://vm.tiktok.com/ZMh8GTM2t/"><img src="img/tik-tok.png" width="20"></a>
+                <a href="https://www.instagram.com/samfafiolu.ng?igsh=YzljYTk1ODg3Zg=="><img src="img/instagram.png" width="20"></a>
+                <a href="https://youtube.com/@samfafioluofficial?si=S8PP0mXsg4CZrCpM"><img src="img/youtube.png" width="20"></a>
+            </div>
+            <div>
+                <h5>Our Services</h5>
+                <div class="Service1">
+                    <a href="">Podcast</a>
+                    <a href="">Teachings</a>
+                    <a href="">My Books</a>
+                    <a href="">Testimonials</a>
                 </div>
 
             </div>
-            <hr>
-            <div class="form">
-                <div>
-                    <form>
-                        <label for="fname">First Name</label><br>
-                        <input type="text" id="fname" name="firstname" placeholder="Your first name.."><br>
-
-                        <label for="lname">Last Name</label><br>
-                        <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
-
-                        <label for="ename">Email</label><br>
-                        <input type="text" id="ename" name="email" placeholder="abc1234@gmail.com"><br>
-
-                        <label for="country">Country</label><br>
-                        <select id="country" name="country">
-                            <option value="NG">Nigeria (NG)</option>
-                            <option value="UK">United Kingom (UK)</option>
-                            <option value="">GERMANY</option>
-                        </select><br>
-
-                        <input type="submit" value="Submit">
-                    </form>
+            <div>
+                <h5>About Us</h5>
+                <div class="Service1">
+                    <a href="about.html">About Us</a>
+                    <a href="">Giving</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="">Team</a>
                 </div>
             </div>
-
+            <div class="input">
+                <h5>Fill this form</h5>
+                <form action="">
+                    <input type="Name" placeholder="Your Name">
+                    <input type="Email" placeholder="Your Email">
+                    <input type="Message" placeholder="Your Message">
+                    <button class="bg-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="line"></div>
+        <div class="copyright">
+            <p>Copyright 2024 by Psalmson Media | All rights reserved</p>
+        </div>
     </footer>
-    <div class="ps">
-        <p>@Psalmson Media | All right reserved.</p>
-    </div>
+
+
+
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
